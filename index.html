@@ -1,83 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="personal website">
-    <meta name="keywords" content="nick leeds, nicholas leeds">
-    <meta name="author" content="Nick Leeds">
-    <title>Nick Leeds | Welcome</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <title>Canvas Resize</title>
+    <style type="text/css">
+        canvas{
+            border: 1px solid black;
+            background: rgb(38, 38, 38);
+        }
+        body {
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div id="branding">
-                <h1><span class="highlight">Nick</span> Leeds</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li class="current"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <canvas></canvas>
+<!--     <iframe allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/381930143&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" style="width:0;height:0;border:0; border:none; visibility: hidden; position: absolute;";></iframe> -->
 
-    <section id="showcase">
-        <div class="container">
-            <h1>Title</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation</p>
-        </div>
-    </section>
-
-    <section id="newsletter">
-        <div class="container">
-            <h1>Subscribe to my newsletter</h1>
-            <form>
-                <input type="email" placeholder="Enter Email..">
-                <button type="submit" class="button_1">Subscribe</button>
-            </form>
-        </div>
-
-    </section>
-
-    <section id="boxes">
-        <div class="container">
-            <div class="box">
-                <img src="./img/thing1.png">
-                <h3>Thing 1</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.</p>
-            </div>
-            <div class="box">
-                <img src="./img/thing2.png">
-                <h3>Thing 2</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.</p>
-            </div>
-            <div class="box">
-                <img src="./img/thing3.png">
-                <h3>Thing 3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.</p>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <p>Nick Leeds, Copyright &copy 2017</p>
-    </footer>
-
-
+    <script src="followingCircles_Smoother.js"></script>
 </body>
 </html>
