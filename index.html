@@ -1,21 +1,299 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Nick Leeds | Welcome</title>
-    <style type="text/css">
-        canvas{
-            background: rgb(38, 38, 38);
-        }
-        body {
-            margin: 0;
-        }
-    </style>
-</head>
-<body>
-    <canvas></canvas>
-<!--     <iframe allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/381930143&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" style="width:0;height:0;border:0; border:none; visibility: hidden; position: absolute;";></iframe> -->
+<html lang="en">
 
-    <script src="followingCircles.js"></script>
-</body>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Nick Leeds</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Nick Leeds</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#courses">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Nick
+            <span class="text-primary">Leeds</span>
+          </h1>
+          <div class="subheading mb-5"> (805)           <a href="mailto:nleeds@ucsc.edu">nleeds@ucsc.edu</a>
+          </div>
+          <p class="mb-5">I am a third-year computer science student looking for a summer internship to develop and apply my computer science skills
+ </p>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/nicholasleeds/" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/nleeds" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/nickleeds23/" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Software Developer</h3>
+              <div class="subheading mb-3">CMPS 115 - Introduction to Software Engineering I</div>
+              <p> Worked in a team of four using Scrum framework to create a tool to search Amazon for non-artificial deals
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">November 2017 - December 2017</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Software Developer</h3>
+              <div class="subheading mb-3">CMPS 5P - Introduction to Python</div>
+              <p>Worked in a team of two to create a Python script that tweets Reddit posts to Twitter
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">November 2017 - December 2017</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Software Developer</h3>
+              <div class="subheading mb-3">CMPS 111 - Introduction to Operating Systems</div>
+              <p>Worked in a team of four to modify the FreeBSD kernel’s scheduler, pageout daemon, and file system
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">April 2016 - June 2016
+              </span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Academic Mentor</h3>
+              <div class="subheading mb-3">San Marcos High School, Santa Barbara, California
+              </div>
+              <p>Provided physics tutoring for struggling high-school students
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2014 - May 2015
+              </span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">UC Santa Cruz, Santa Cruz, California
+              </h3>
+              <div class="subheading mb-3">Bachelor of Science</div>
+              <div>Computer Science</div>
+              <p>GPA: 3.76</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary"> Expected graduation: June 2019</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="courses">
+        <div class="my-auto">
+          <h2 class="mb-5">Courses</h2>
+          <ul>
+            <li>Computer Security (CMPS 122)</li>
+            <li>Database Systems I (CMPS 180)</li>
+            <li>Fundamentals of Compiler Design I (CMPS 104A)</li>
+            <li>Introduction to Software Engineering (CMPS 115)</li>
+            <li>Introduction to Python (CMPS 5P)</li>
+            <li>Computational Models (CMPS 130)</li>
+            <li>Introduction to Operating Systems (CMPS 111)</li>
+            <li>Computer Architecture (CMPE 110)</li>
+            <li>Probability and Statistics for Engineers (CMPE 107)</li>
+            <li>Algorithms and Abstract Data Types (CMPS 101)</li>
+            <li>Introduction to Data Structures (CMPS 12B)</li>
+            <li>Computer Systems and Assembly Language (CMPE 12)</li>
+            </ul>
+        </div>
+      </section>
+
+
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-git"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-trello"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-java"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-python"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-linux"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-stackoverflow"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-google_drive"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-postgresql"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-terminal"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-vim"></i>
+            </li>
+            <li class="list-inline-item">
+            <i class="devicon-c-plain"></i>
+            </li>
+            <li class="list-inline-item">
+            <i class="devicon-gimp-plain"></i>
+            </li>
+            <li class="list-inline-item">
+            <i class="devicon-ssh-plain"></i>
+            </li>
+          </ul>
+
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+          <p>Apart from being a software developer, I enjoy most of my time hiking in the Santa Cruz forests, listening to podcasts, reading blogs and fiction, browsing Reddit, and learning about new technologies.</p>
+          <p class="mb-0"></p>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5">Awards &amp; Certifications</h2>
+          <ul class="fa-ul mb-0">
+            <li> class="fa-li fa fa-trophy text-warning"></i>
+              Tennis "Coach's Award"</li>
+            <li> class="fa-li fa fa-trophy text-warning"></i>
+              AP Scholar with Distinction Award</li>
+            <li> class="fa-li fa fa-trophy text-warning"></i>
+              National Honor Society
+            </li>
+            <li> class="fa-li fa fa-trophy text-warning"></i>
+              Dean's Honors: Winter 2016, Spring 2016, Fall 2016, Winter 2017
+            </li>
+          </ul>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
 </html>
