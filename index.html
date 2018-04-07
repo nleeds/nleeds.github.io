@@ -8,7 +8,7 @@
     <meta name="description" content="Nick Leeds personal website">
     <meta name="author" content="Nick leeds">
 
-    <title>Nick Leeds</title>
+    <title>Resume | Nick Leeds</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -32,7 +32,7 @@
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Nick Leeds</span>
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt="">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile_quare_black_background.png" alt="">
         </span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,11 +52,15 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
-          <li class="nav-item">
+<!--           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li>
+          <br>
+          <li class="nav-item">
+            <a href="src/resume.pdf" target="_blank" class="nav-link">Download PDF</a>
           </li>
         </ul>
       </div>
@@ -72,7 +76,7 @@
           <div class="subheading mb-5"> <a href="mailto:nleeds@ucsc.edu">nleeds@ucsc.edu</a>
           </div>
           <p class="mb-5">I am a third-year computer science student looking for a summer internship to develop and apply my computer science skills
- </p>
+          </p>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
               <a href="https://www.linkedin.com/in/nicholasleeds/" target="_blank">
@@ -105,6 +109,19 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
         <div class="my-auto">
           <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Software Developer</h3>
+              <div class="subheading mb-3">Computer Security Project</div>
+              <p>Utilized Python, Bash, C, and Wireshark to automate password cracking, stack smashing, and packet capture and decryption
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2018 - March 2018
+              </span>
+            </div>
+          </div>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
@@ -184,6 +201,9 @@
         <div class="my-auto">
           <h2 class="mb-5">Courses</h2>
           <ul>
+            <li>Introduction to Analysis of Algorithm(CMPS 122)</li>
+            <li>Mobile Applications (CMPS 121)</li>
+            <li>Advanced Programming (CMPS 109)</li>
             <li>Computer Security (CMPS 122)</li>
             <li>Database Systems I (CMPS 180)</li>
             <li>Fundamentals of Compiler Design I (CMPS 104A)</li>
@@ -208,52 +228,46 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
           <h2 class="mb-5">Skills</h2>
+          <div class="subheading mb-3">Programming Languages</div>
+          <ul>
+            <li>Python</li>
+            <li>C</li>
+            <li>Java</li>
+            <li>Bash</li>
+            <li>SQL</li>
+            <li>HTML/CSS</li>
+            <li>C++</li>
+            <li>MIPS Assembly</li>
+          </ul>
 
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline list-icons">
-            <li class="list-inline-item" data-tooltip="Git">
-              <i class="devicons devicons-git"></i>
-            </li>
-            <li class="list-inline-item" data-tooltip="Trello">
-              <i class="devicons devicons-trello"></i>
-            </li>
-            <li class="list-inline-item" data-tooltip="Java">
-              <i class="devicons devicons-java"></i>
-            </li>
-            <li class="list-inline-item" data-tooltip="Python">
-              <i class="devicons devicons-python"></i>
-            </li>
-            <li class="list-inline-item" data-tooltip="Linux">
-              <i class="devicons devicons-linux"></i>
-            </li>
-            <li class="list-inline-item" data-tooltip="Postgresql">
-              <i class="devicons devicons-postgresql"></i>
-            </li>
-            <li class="list-inline-item" data-tooltip="C">
-            <i class="devicon-c-plain"></i>
-            </li>
-            <li class="list-inline-item" data-tooltip="Gimp">
-            <i class="devicon-gimp-plain"></i>
-            </li>
-            <li class="list-inline-item" data-tooltip="Ssh">
-            <i class="devicon-ssh-plain"></i>
-            </li>
+        <div class="subheading mb-3">Tools</div>
+          <ul>
+            <li>Git & Github</li>
+            <li>Command Line</li>
+            <li>Gimp</li>
+            <li>SSH</li>
+            <li>SFTP</li>
+            <li>Trello</li>
+            <li>SLack</li>
+            <li>Unix</li>
+            <li>Windows</li>
+            <li>Scrum framework</li>
           </ul>
           <div class="subheading mb-3">Other Qualities</div>
           <ul>
-            <li>Scrum framework</li>
             <li>Logic and critical thinking</li>
             <li>Calm demeanor</li>
+          </ul>
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+<!--       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
           <p>Apart from being a software developer, I enjoy hiking in the Santa Cruz forests, listening to podcasts and music, reading blogs and fiction, browsing Reddit, and learning about new technologies.</p>
         </div>
       </section>
-
+ -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
         <div class="my-auto">
           <h2 class="mb-5">Awards &amp; Certifications</h2>
@@ -267,7 +281,7 @@
             <li> <i class="fa-li fa fa-trophy text-warning"></i>
               AP Scholar with Distinction Award</li>
             <li><i class="fa-li fa fa-trophy text-warning"></i>
-              Tennis "Coach's Award"</li>
+              Tennis Team "Coach's Award"</li>
 
 
 
